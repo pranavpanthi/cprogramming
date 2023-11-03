@@ -1,10 +1,6 @@
 #include <stdio.h>
 
 int main() {
-	int age = 40;
-	double gpa = 3.7;
-	char grade = 'A';
-	
-
+	printf("%f", 0.9);
 	return 0;
 }

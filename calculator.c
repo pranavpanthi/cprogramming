@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-	float addition(float, float);
-	float substract(float, float);
-	float division(float, float);
-	float multiply(float, float);
+// all functions need to be defined before the main function
+// syntax : return_type function_name(parameter 1, parameter 2,.....)
+float addition(float, float); // function declaration 
+float substract(float, float);
+float division(float, float);
+float multiply(float, float);
 	
 int main(void) {
 	float a;
@@ -19,6 +21,7 @@ int main(void) {
 	return 0;
 }
 
+// function definition
 float addition(float a, float b) {
 	return a + b;
 }

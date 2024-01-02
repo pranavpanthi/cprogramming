@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int prime(int x); // function prototyping
+int prime(int x); // function protyping
 
 int main() {
     int a;

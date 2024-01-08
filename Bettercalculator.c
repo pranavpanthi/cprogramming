@@ -13,16 +13,16 @@ int main() {
 
     if (op == '+')
     {
-        printf("%f", a + b);
+        printf("Add = %f", a + b);
     }else if (op == '-')
     {
-        printf("%f", a - b);
+        printf("Substract = %f", a - b);
     }else if (op == '*')
     {
-        printf("%f", a * b);
+        printf("Multiplication = %f", a * b);
     }else if (op == '/')
     {
-        printf("%f", a / b);
+        printf("Divide = %f", a / b);
     }else
     {
         printf("Invalid operator");

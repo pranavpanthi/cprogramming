@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 // global variable
-int num_arr[5];
+int num_arr[5]; // 6 1 4 5 10
 
 void getInput();
 
@@ -21,7 +21,12 @@ int main(void) {
 */
 void getInput() {
     // complete this function
-
+    printf("Enter five numbers : ");
+    for (int i = 0; i < 5; i++)
+    {
+        scanf("%d", &num_arr[i]);
+    }
+    
 }
 
 /*
@@ -29,5 +34,15 @@ void getInput() {
 */
 int findMax(int nums[]) {
     // complete the function and return the desired result
-    return -1;
+    int max = 0;
+        for (int i = 0; i < 5; i++)
+        {
+            if (num_arr[i] > max)
+            {
+                max = num_arr[i];
+            }
+            
+        }
+        
+    return max;
 }

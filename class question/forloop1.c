@@ -14,9 +14,10 @@ int main(){
 	}
 	if(b==2)
 	{
-		printf("%d is Prime \n",);
+		printf("%d is Prime \n");
 	}else {
-			printf("%d is Composite \n",);
+			printf("%d is Composite \n");
+	}
 			b=0;
-		}
+	
 }

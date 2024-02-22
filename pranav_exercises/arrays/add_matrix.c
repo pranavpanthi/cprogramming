@@ -21,3 +21,10 @@
     5 6 7
     8 9 10
 */
+
+#include<stdio.h>
+
+int main(void) {
+    int matrixA[10][10], matrixB[10][10], sum[10][10];
+    return 0;
+}

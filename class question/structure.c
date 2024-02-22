@@ -4,7 +4,8 @@ struct studinfo
 {
     char name[80];
     int roll_no;
-    char dept[30]
+    char dept[30];
+    int per_no;
 };
 
 int main(){
@@ -20,6 +21,8 @@ int main(){
         scanf("%d", &si[i].roll_no);
         printf("\n Your department : ");
         scanf("%s", si[i].dept);
+        printf("\n Your percentage scored : ");
+        scanf("%1.f", si[i].per_no)
     }
 
     for ( i = 0; i < n; i++)
@@ -27,7 +30,8 @@ int main(){
         printf("\n ***************************************  \n");
         printf("Your Name = %s", si[i].name);
         printf("\n Your roll_no = %d", si[i].roll_no);
-        printf("\nYour Department = %s", si[i].dept);
+        printf("\n Your Department = %s", si[i].dept);
+        printf("\n Your percentage : %d", si[i].per_no);
     }
 
     

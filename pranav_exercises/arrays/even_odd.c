@@ -17,7 +17,7 @@ int main(void) {
     }
     printf("\n Odd array = ");
     for (int i = 0; i < 10; i++)
-    {
+    
         if (nums[i] % 2 == 1)
         {
             printf("%d \t", nums[i]);
